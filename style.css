@@ -93,6 +93,7 @@ button:hover{
      box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.5);
      backdrop-filter: blur(5px);
      background-clip: padding-box;
+     margin-bottom:60px;
 }
 .result{
     padding: 20px;
@@ -117,7 +118,14 @@ footer {
     display: inline;
     margin: 5px 50px;
     cursor: pointer;
+    
 }
-.social:hover{
-   letter-spacing: 1px;
+.social a{
+    text-decoration: none;
+}
+.social a:hover{
+    padding: 10px;
+    background: #ffcd07;
+    transform: scale(1.26);
+    transition: .3s;
 }

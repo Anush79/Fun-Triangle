@@ -7,6 +7,7 @@ function calculateFinalScore() {
     let score = 0;
     let i = 0;
     const formData = new FormData(formForQuiz);
+
     for (var value of formData.values()) {
         if (value === rightAnswers[i]) {
             score = score + 1; 
