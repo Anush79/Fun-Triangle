@@ -1,13 +1,18 @@
 var angle1 = document.querySelector("#angle1");
 var angle2 = document.querySelector("#angle2");
 var angle3 = document.querySelector("#angle3");
-var btn = document.querySelector("button");
+var btn = document.querySelector("#submit");
 var output = document.querySelector(".result");
+var resetbtn = document.querySelector(".reset");
 
 function calculatesum(angle1,angle2,angle3){
     const sumOfAngles = angle1+angle2+angle3;
     return sumOfAngles;
 }
+
+resetbtn.addEventListener("click", function(){
+    document.getElementById("myForm").reset();
+});
 
 btn.addEventListener("click", function () {
 var ang1 = Number(angle1.value);
