@@ -3,6 +3,7 @@ var height = document.querySelector(".height");
 var btn = document.querySelector("#hypo");
 var outputhypo = document.querySelector(".result");
 
+
 btn.addEventListener("click", function(){
     
     const a= Number(base.value);
@@ -17,3 +18,8 @@ btn.addEventListener("click", function(){
 
 })
 
+var resetbtn = document.querySelector(".resetbtn");
+
+resetbtn.addEventListener("click", function(){
+    document.getElementById("myForm").reset();
+});
