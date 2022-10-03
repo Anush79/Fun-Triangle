@@ -8,7 +8,7 @@ btn.addEventListener("click", function(){
     
     const a= Number(base.value);
     const b= Number(height.value);
-    if(a>=0 && b>=0 ){
+    if(a>0 && b>0 ){
     var hypo= Math.sqrt(a*a + b*b)
     outputhypo.innerText="Hypotenuse of the Given Triangle is "+hypo.toFixed(2)+" units"
     }
