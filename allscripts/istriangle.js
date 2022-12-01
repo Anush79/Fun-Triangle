@@ -12,6 +12,7 @@ function calculatesum(angle1,angle2,angle3){
 
 resetbtn.addEventListener("click", function(){
     document.getElementById("myForm").reset();
+    output.innerText="";
 });
 
 btn.addEventListener("click", function () {

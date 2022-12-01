@@ -69,4 +69,5 @@ submitbtn.addEventListener("click", calculateFinalScore);
 
 resetbtn.addEventListener("click", function () {
   formForQuiz.reset();
+  output.innerText="";
 });

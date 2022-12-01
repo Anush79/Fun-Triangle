@@ -7,6 +7,7 @@ var resetbtn = document.querySelector(".reset");
 
 resetbtn.addEventListener("click", function(){
     document.getElementById("myForm").reset();
+    output.innerText="";
 });
 
 function calcPmeter(ab, bc, ac) {
