@@ -22,5 +22,5 @@ var resetbtn = document.querySelector(".resetbtn");
 
 resetbtn.addEventListener("click", function(){
     document.getElementById("myForm").reset();
-    output.innerText="";
+    outputhypo.innerText="";
 });
